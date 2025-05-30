@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe11af6164ffa547b48ee72c338fa2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowParticles: {fileID: 2141489017}
+  snowParticles: {fileID: 841551673}
 --- !u!114 &60343448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e387ed9f9d7f114898df93b6016194b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rainParticles: {fileID: 0}
+  rainParticles: {fileID: 2141489017}
 --- !u!213 &94328964
 Sprite:
   m_ObjectHideFlags: 0
@@ -39910,6 +39910,7 @@ GameObject:
   - component: {fileID: 1429798034}
   - component: {fileID: 1429798036}
   - component: {fileID: 1429798035}
+  - component: {fileID: 1429798037}
   m_Layer: 0
   m_Name: Taiga
   m_TagString: Taiga
@@ -40438,6 +40439,44 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1429798037
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429798033}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1490216945
 GameObject:
   m_ObjectHideFlags: 0
