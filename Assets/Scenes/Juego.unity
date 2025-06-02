@@ -685,7 +685,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1777146537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &60343441
 Rigidbody2D:
@@ -34797,13 +34797,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841551670}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.02858847, y: -0.7065286, z: 0.7065287, w: 0.028588515}
-  m_LocalPosition: {x: -1.47, y: 5.15, z: 10}
+  m_LocalRotation: {x: 0.5072821, y: -0.49261075, z: 0.49261013, w: -0.50728184}
+  m_LocalPosition: {x: -7.65, y: 2.1, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519420032}
-  m_LocalEulerAnglesHint: {x: 85.366, y: -90, z: 90}
+  m_LocalEulerAnglesHint: {x: 181.681, y: -90, z: 90}
 --- !u!199 &841551672
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -34828,7 +34828,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 671c501b756906d439d00069d7fbf2d2, type: 2}
+  - {fileID: 2100000, guid: 21966065a498eab4da00603b8530d41c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34964,7 +34964,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 20
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -35017,7 +35017,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -35520,7 +35520,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 14, y: 0, z: 1}
+    m_Scale: {x: 2, y: 0, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -35718,7 +35718,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 18.1
+      scalar: 0.3
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -35824,12 +35824,12 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
-      minMaxState: 1
-      scalar: 1
-      minScalar: 1
+      minMaxState: 3
+      scalar: 8
+      minScalar: 4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -35880,7 +35880,7 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -35933,7 +35933,7 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -35986,7 +35986,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -36216,15 +36216,15 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
-    mode: 0
+    enabled: 1
+    mode: 1
     timeMode: 0
     fps: 30
     frameOverTime:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 0.9999
-      minScalar: 0.9999
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -36335,7 +36335,14 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 0}
+    - sprite: {fileID: 4265810931041437913, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: -3189037523544438887, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: 2538414798371927207, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: 3662668681075158696, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: 9162652607131163816, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: 1951425808681341715, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: -3368192306025982966, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
+    - sprite: {fileID: 7301012428240938273, guid: 70e24720c645ce346828a280ffce25d2, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -37533,12 +37540,12 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 0
+    enabled: 1
     strength:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
-      minScalar: 1
+      minMaxState: 3
+      scalar: 0.3
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -37589,7 +37596,7 @@ ParticleSystem:
         m_RotationOrder: 4
     strengthY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -37642,7 +37649,7 @@ ParticleSystem:
         m_RotationOrder: 4
     strengthZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -37694,7 +37701,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.5
+    frequency: 1
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -38236,7 +38243,7 @@ ParticleSystem:
     range: {x: 0, y: 1}
     separateAxes: 0
   RotationBySpeedModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -41526,7 +41533,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 60343437}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977421650
@@ -47362,7 +47370,7 @@ Transform:
   m_GameObject: {fileID: 2141489016}
   serializedVersion: 2
   m_LocalRotation: {x: -0.02858847, y: -0.7065286, z: 0.7065287, w: 0.028588515}
-  m_LocalPosition: {x: -1.47, y: 5.15, z: 10}
+  m_LocalPosition: {x: 2.1, y: 4.09, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47378,4 +47386,3 @@ SceneRoots:
   - {fileID: 1777146537}
   - {fileID: 172975121}
   - {fileID: 2135460353}
-  - {fileID: 60343437}
