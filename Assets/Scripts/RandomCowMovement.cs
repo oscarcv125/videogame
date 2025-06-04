@@ -37,8 +37,6 @@ public class RandomCowMovement : MonoBehaviour
                 StartIdlePhase();
         }
 
-        animator.SetFloat("MoveX", movement.x);
-        animator.SetFloat("MoveY", movement.y);
         animator.SetBool("IsMoving", isWalking);
 
         // Flip sprite if moving left
