@@ -28,7 +28,7 @@ public class FormValidatorSeagull : MonoBehaviour
     private readonly string expectedAnimalType = "Bird";
     private readonly string expectedObservationType = "Seen";
     private readonly int expectedIndividualCount = 4;
-    private readonly string[] acceptedNames = { "Seagull", "Gaviota" };
+    private readonly string[] acceptedNames = { "Seagull", "Gaviota", "gaviota", "gaviota común", "gaviota patiamarilla", "seagull" };
 
     public void OnSubmit()
     {
@@ -72,7 +72,7 @@ public class FormValidatorSeagull : MonoBehaviour
             acceptedNames.Contains(common))
         {
             feedbackText.text = "¡Formulario enviado correctamente!";
-            BiomonitorManager.Instance.RegisterCompletion(expectedAnimal);
+            BiomonitorManager.Instance.RegisterCompletion("Seagull");
             StartCoroutine(HideFormAfterDelay());
         }
         else
@@ -84,7 +84,7 @@ public class FormValidatorSeagull : MonoBehaviour
     private IEnumerator HideFormAfterDelay()
     {
         yield return new WaitForSeconds(2f);
-        formManager.HideForm(expectedAnimal);
+        formManager.HideForm("Seagull");
         formCompleted = true;
     }
 

@@ -46,7 +46,7 @@ public class BiomonitorManager : MonoBehaviour
     {
         if (completedText != null)
         {
-            completedText.text = $"BIOMOS COMPLETADOS: {CompletedCount}";
+            completedText.text = $"biomos completados: {CompletedCount}";
         }
         else
         {

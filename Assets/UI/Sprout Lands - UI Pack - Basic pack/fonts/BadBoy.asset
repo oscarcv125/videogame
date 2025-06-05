@@ -6,7 +6,7 @@ Texture2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pixelFont-7-8x14-sproutLands Atlas
+  m_Name: BadBoy Atlas
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -56,31 +56,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: pixelFont-7-8x14-sproutLands SDF
+  m_Name: BadBoy
   m_EditorClassIdentifier: 
   m_Version: 1.1.0
   m_FaceInfo:
     m_FaceIndex: 0
     m_FamilyName: pixelFont-7-8x14-sproutLands
     m_StyleName: Regular
-    m_PointSize: 90
+    m_PointSize: 231
     m_Scale: 1
     m_UnitsPerEM: 2304
-    m_LineHeight: 90
-    m_AscentLine: 70
-    m_CapLine: 70
-    m_MeanLine: 70
+    m_LineHeight: 231
+    m_AscentLine: 179.66667
+    m_CapLine: 180
+    m_MeanLine: 180
     m_Baseline: 0
-    m_DescentLine: -5
-    m_SuperscriptOffset: 70
+    m_DescentLine: -12.833334
+    m_SuperscriptOffset: 179.66667
     m_SuperscriptSize: 0.5
-    m_SubscriptOffset: -5
+    m_SubscriptOffset: -12.833334
     m_SubscriptSize: 0.5
-    m_UnderlineOffset: 6.7578125
-    m_UnderlineThickness: 4.4921875
-    m_StrikethroughOffset: 28
-    m_StrikethroughThickness: 4.4921875
-    m_TabWidth: 20
+    m_UnderlineOffset: 17.345053
+    m_UnderlineThickness: 11.529948
+    m_StrikethroughOffset: 72
+    m_StrikethroughThickness: 11.529948
+    m_TabWidth: 51
   m_Material: {fileID: 2500802922868636038}
   m_SourceFontFileGUID: cdaa7fb44d2ead645a18b5d6a720d167
   m_CreationSettings:
@@ -88,21 +88,21 @@ MonoBehaviour:
     sourceFontFileGUID: cdaa7fb44d2ead645a18b5d6a720d167
     faceIndex: 0
     pointSizeSamplingMode: 0
-    pointSize: 90
+    pointSize: 231
     padding: 9
     paddingMode: 2
     packingMode: 0
     atlasWidth: 1024
     atlasHeight: 1024
     characterSetSelectionMode: 7
-    characterSequence: 
-    referencedFontAssetGUID: 
+    characterSequence: ' !,/012378CEHLNPSTWabcdeghijlmnopqrstuvwxyz'
+    referencedFontAssetGUID: f4cee31d8919aa146b21e0010325075f
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0
     renderMode: 4165
     includeFontFeatures: 0
-  m_SourceFontFile: {fileID: 12800000, guid: cdaa7fb44d2ead645a18b5d6a720d167, type: 3}
+  m_SourceFontFile: {fileID: 0}
   m_SourceFontFilePath: 
   m_AtlasPopulationMode: 1
   InternalDynamicOS: 0
